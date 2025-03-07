@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+td.taken {
+    pointer-events: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#choosePlayer{
+    display: block;
+    margin: 20px auto;
+    
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
